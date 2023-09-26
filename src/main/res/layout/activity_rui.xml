@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RUI_Activity"
+    android:orientation="vertical"
+    android:showDividers="middle"
+    android:background="@drawable/background_sub"
+    android:scrollbars="vertical"
+    tools:ignore="ExtraText">
+    <include layout="@layout/toolbar"
+        android:id="@+id/tool_sub"/>
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="169dp"
+        android:layout_height="184dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/r" />
+
+    <EditText
+        android:id="@+id/editIDRIU"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:gravity="center"
+        android:hint="ID" />
+
+    <EditText
+        android:id="@+id/editCodeRIU"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:gravity="center"
+        android:hint="Code" />
+
+
+    <EditText
+        android:id="@+id/editDesRIU"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:hint="Description" />
+
+    <EditText
+        android:id="@+id/editQuaRIU"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:gravity="center"
+        android:hint="Quantity" />
+
+    <Button
+        android:id="@+id/btnRIU"
+        android:layout_width="274dp"
+        android:layout_height="83dp"
+        android:layout_gravity="center"
+        android:text="Submit"
+        android:textSize="20sp"/>
+
+</LinearLayout>

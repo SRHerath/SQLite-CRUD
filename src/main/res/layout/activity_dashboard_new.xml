@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dashboard_new"
+    android:orientation="vertical"
+
+    android:showDividers="middle"
+    android:background="@drawable/background_sub">
+
+    <include
+        android:id="@+id/tool_main"
+        layout="@layout/toolbar" />
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="164dp"
+        android:layout_height="148dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/r" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="fantasy"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Welcome!"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <Spinner
+        android:id="@+id/spinnerMain"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="98dp"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/createEditText"
+        android:layout_width="215dp"
+        android:layout_height="58dp"
+        android:layout_gravity="center"
+        android:text="Add Items"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:id="@+id/readEditText"
+        android:layout_width="215dp"
+        android:layout_height="58dp"
+        android:layout_gravity="center"
+        android:text="Read Data"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/updateEditText"
+        android:layout_width="215dp"
+        android:layout_height="58dp"
+        android:layout_gravity="center"
+        android:text="Update"
+        android:textSize="20sp"/>
+    <Button
+        android:id="@+id/deleteEditText"
+        android:layout_width="215dp"
+        android:layout_height="58dp"
+        android:layout_gravity="center"
+        android:text="Delete"
+        android:textSize="20sp"/>
+
+
+</LinearLayout>
+
